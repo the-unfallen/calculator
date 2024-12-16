@@ -4,47 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id="container">
         <div id="valueDisplay">
-            <div class="display_box"></div>
-            <div class="display_box"></div>
+            <div id="entryBox" class="display_box"></div>
+            <div id="resultBox" class="display_box">0</div>
         </div>
         <div id="allButtons">
             <div class="row 1">
-                <div class="keypad">C</div>
-                <div class="keypad">%</div>
-                <div class="keypad">⌫</div>
-                <div class="keypad">/</div>
+                <div id="keyClear" class="keypad">C</div>
+                <div id="keyPercent" class="keypad">%</div>
+                <div id="keyBack" class="keypad">⌫</div>
+                <div id="keyDivide" class="keypad">/</div>
             </div>
             <div class="row 2">
-                <div class="keypad">1</div>
-                <div class="keypad">2</div>
-                <div class="keypad">3</div>
-                <div class="keypad">*</div>
+                <div id="keyOne"class="keypad">1</div>
+                <div id="keyTwo" class="keypad">2</div>
+                <div id="keyThree" class="keypad">3</div>
+                <div id="keyMultiply" class="keypad">*</div>
             </div>
             <div class="row 3">
-                <div class="keypad">4</div>
-                <div class="keypad">5</div>
-                <div class="keypad">6</div>
-                <div class="keypad">-</div>
+                <div id="keyFour" class="keypad">4</div>
+                <div id="keyFive" class="keypad">5</div>
+                <div id="keySix" class="keypad">6</div>
+                <div id="keyMinus" class="keypad">-</div>
             </div>
             <div class="row 4">
-                <div class="keypad">7</div>
-                <div class="keypad">8</div>
-                <div class="keypad">9</div>
-                <div class="keypad">+</div>
+                <div id="keySeven" class="keypad">7</div>
+                <div id="keyEight" class="keypad">8</div>
+                <div id="keyNine" class="keypad">9</div>
+                <div id="keyPlus" class="keypad">+</div>
             </div>
             <div class="row 5">
-                <div class="keypad">+/-</div>
-                <div class="keypad">0</div>
-                <div class="keypad">.</div>
-                <div class="keypad">=</div>
+                <div id="keyNegate" class="keypad">+/-</div>
+                <div id="keyZero" class="keypad">0</div>
+                <div id="keyPeriod" class="keypad">.</div>
+                <div id="keyEqual" class="keypad">=</div>
             </div>
-
         </div>
     </div>
 </body>

@@ -1,3 +1,5 @@
+Random notes.
+
 #422217 - Hazelnut
 #AB5F43 - Cinamon
 #D9B38C - Toast
@@ -19,3 +21,52 @@ Hues of green
 #93CD9A - Clover
 #CDE7C4 - Honeydew
 #DFECE2 - Mint
+
+
+
+Notes on colour; 
+1. -- the combination of midnight blue as background colour. royal blue as keypad background and burgundyred as keypad border seems to work great.
+8/10
+2. -- the combination of darkgreen as calculator background and lightgray as keypad background is not bad as well.
+6.5/10
+3. mauve + dustyrose + softbluegray doesn't work.
+1.0/10
+4. Forest green + moss green is also a nice combination - 7/10.
+
+Notes on EntryBox font-styles.
+1. Poppins - 6/10
+2. Inter - 6.2/10
+3. Lato - 6.2/10
+4. Noto Sans - 6.1/10
+5. IBM Plexis Sans - 6.3/10
+6. Noto Serif - 6.3/10
+7. Libre Baskerville - 5.0/10
+8. Source Code Pro - 6.3/10
+9. Merriweather Sans - 5.5/10
+10. Be Vietnam Pro - 5/10
+11. Shippori Antique - 5/10
+12. Charis SIL - 6.3/10
+13. Tauri - 5.5/10
+14. Roboto Mono - 6.3/10
+15. Fira Mono - 5.5/10
+
+
+
+The 6.0 =>
+1. Poppins - 5.5/10
+2. Inter - 6.5/10
+3. Lato - -/10
+4. Noto Sans - 6.5/10
+5. IBM Plexis Sans - 6.5/10
+6. Noto Serif - 5.5/10
+7. Source Code Pro - 6.7/10
+8. Charis SIL - 6.5/10
+9. Roboto Mono - 6.8/10
+
+The 6.7 => 
+1. Source Code Pro - 6.7/10
+2. Roboto Mono - 6.8/10
+
+
+
+# Handle extremely large numbers.
